@@ -4,14 +4,14 @@
 
 * Set up your working directory
 * YOU NEED TO MODIFY THIS PATH WHEN RUNNING THE CODE ON YOUR LOCAL ENVIRONMENT
-cd "C:/Users/langhe/Documents/GitHub/rdm2025/Stata"
+cd "C:\Users\swaind\Documents\GitHub\mscepi_rdm\data"
 
 ***************************************
 * Load and clean the village dataset *
 ***************************************
 
 * Load CSV file
-import delimited "../data/village info.csv", clear
+import delimited "village info.csv", clear
 
 * Display structure of the dataset
 describe
